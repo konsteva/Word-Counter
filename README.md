@@ -1,6 +1,6 @@
 # Word-Counter
 
-This is a 2 version Python 3 script for quantitive analysis of txt files. The script creates a dictionary with all the unique words that appear in the text, it returns the most common words in the text file and their count and it also give the ability to search for one or more specific words in the txt and see their count. Both versions count words seperated by hyphen as one. One version was made for time efficiency and the second for memory efficiency.
+This is a 2 version Python 3 script for quantitive analysis of txt files. The script creates a dictionary with all the unique words that appear in the text, it returns the most common words and their count and it also gives the ability to the user to search for one or more specific words and see their count. Both versions count words seperated by hyphen as one. One version was made for time efficiency and the second for memory efficiency.
 
 # Word_Counter_Time:
 
