@@ -1,16 +1,13 @@
 import collections
 import os
-import time
 import re
 from tqdm import tqdm
 
-start_time = time.time()
-
-# Write the file path between the ""
-file_path = "Shakespeare - A book of Homage.txt"
+# Write the file path 
+file_path = 
 
 # Write the specific word(s) to find in the text
-specific_words = ["Elizabeth"]
+specific_words = []
 
 # Excluded words
 excluded = []
@@ -71,5 +68,3 @@ if __name__ == "__main__":
 
     Check_filetype(file_path)
     Counter(Dictionary(file_path, enc))
-
-    print("--- %s seconds ---" % (time.time() - start_time))
