@@ -36,14 +36,14 @@ The script can take multiple files as input (txt, docx, csv, json, html, epub, b
 
   10 most common words of length greater than 4 letters, excluding the words 'they', 'those', 'there' and specified words 'I' :
   
-  Mein Kampf:
+  - Mein Kampf:
   
   ('i', 247), ('which', 124), ('german', 81), ('people', 54), ('their', 46), ('first', 39), ('would', 38), ('could', 34), ('became', 32), ('state', 31)
   
   The word "i" appears 247 times (1.61%)
  
  
-  Industrial Society and its Future:
+  - Industrial Society and its Future:
   
   ('society', 234), ('system', 220), ('people', 217), ('their', 188), ('would', 154), ('power', 154), ('human', 140), ('technology', 127), ('because', 115), ('other', 95)
   
