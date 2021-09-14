@@ -28,7 +28,7 @@ The script can take multiple files as input (txt, docx, csv, json, html, epub, b
   10 most common words of length greater than 4 letters, excluding the words 'there', 'these', 'other', 'which' :
   ('shakespeare', 1594), ('their', 422), ('homage', 363), ('would', 306), ('great', 261), ('world', 220), ('english', 215), ('first', 202), ('plays', 184), ('hamlet', 175)
   
- -Comparison between 2 manifests, Hitler's "Mein Kampf" and Kazinsky's "Industrial Society and its Future"
+- Comparison between 2 manifests, Hitler's "Mein Kampf" and Kazinsky's "Industrial Society and its Future"
   10 most common words of length greater than 4 letters, excluding the words 'they', 'those', 'there' and specified words 'I' :
   Mein Kampf:
   ('i', 247), ('which', 124), ('german', 81), ('people', 54), ('their', 46), ('first', 39), ('would', 38), ('could', 34), ('became', 32), ('state', 31)
