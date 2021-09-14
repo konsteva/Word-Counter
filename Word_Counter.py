@@ -1,6 +1,5 @@
 import collections
 import os
-import time
 import re
 from tqdm import tqdm
 import pypandoc
@@ -73,7 +72,7 @@ def Dictionary(file_path, enc):
         quit()
 
     except UnicodeDecodeError:
-        print("The file isn't utf-8 encoded")
+        print("The file encoding isn't {}".format(enc))
         quit()
 
 
@@ -91,10 +90,8 @@ def Counter(wordcount, total_words):
 
 
 if __name__ == "__main__":
-    start_time = time.time()
 
     Check_filetype(file_path)
     wordcount, total_words = Dictionary(file_path, enc)
     Counter(wordcount, total_words)
-
-    print("--- %s seconds ---" % (time.time() - start_time))
+    
